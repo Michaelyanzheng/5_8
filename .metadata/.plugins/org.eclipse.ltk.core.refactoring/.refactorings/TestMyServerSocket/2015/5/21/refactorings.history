@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;zheng.com.ServerThread&apos; to &apos;ServerListener&apos;&#x0D;&#x0A;- Original project: &apos;TestMyServerSocket&apos;&#x0D;&#x0A;- Original element: &apos;zheng.com.ServerThread&apos;&#x0D;&#x0A;- Renamed element: &apos;zheng.com.ServerListener&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ServerThread&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;zheng.com{ServerThread.java[ServerThread" matchStrategy="1" name="ServerListener" qualified="false" references="true" similarDeclarations="false" stamp="1431952504031" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <Button 
+        android:id="@+id/btnJavaGet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/javaget"/>
+    
+    <Button
+        android:id="@+id/btnJavaPost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/javapost"/>
+    
+    <Button
+        android:id="@+id/btnHttpGet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/httpget"/>
+    
+    <Button
+        android:id="@+id/btnHttpPost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/httppost"/>
+    
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="355" key="DIALOG_WIDTH"/>
+		<item value="110" key="DIALOG_Y_ORIGIN"/>
+		<item value="463" key="DIALOG_HEIGHT"/>
+		<item value="1020" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Arial|14.25|0|WINDOWS|1|-19|0|0|0|400|0|0|0|0|3|2|1|34|Arial" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="toString" key="selection"/>
+		<list key="findhistory">
+			<item value="toString"/>
+			<item value="selectedSId"/>
+			<item value="yes"/>
+			<item value="TAG"/>
+			<item value="String "/>
+			<item value="home_btn_feature3"/>
+			<item value="home_btn_feature1"/>
+			<item value="etphone"/>
+		</list>
+		<list key="replacehistory">
+			<item value="FILE"/>
+			<item value="etPhone"/>
+			<item value="kvs"/>
+		</list>
+	</section>
+</section>

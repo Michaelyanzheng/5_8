@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;TestReadXML/languages&apos; to &apos;languages.xml&apos;" description="Rename resource &apos;languages&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="languages" name="languages.xml" stamp="1431393993710" updateReferences="true"/>&#x0A;<refactoring accessors="true" comment="Delete element from project &apos;TestReadXML&apos;&#x0D;&#x0A;- Original project: &apos;TestReadXML&apos;&#x0D;&#x0A;- Original element: &apos;file.txt&apos;" description="Delete element" element1="file.txt" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1431437184270" subPackages="false" version="1.0"/>
+</session>

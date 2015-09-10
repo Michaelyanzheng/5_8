@@ -1,0 +1,80 @@
+12:24:28 **** Clean-only build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" clean 
+[armeabi] Clean          : HelloNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+13:51:22 **** Build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" all 
+[armeabi] Compile++ thumb: HelloNDK <= HelloNDK.cpp
+[armeabi] StaticLibrary  : libstdc++.a
+[armeabi] SharedLibrary  : libHelloNDK.so
+[armeabi] Install        : libHelloNDK.so => libs/armeabi/libHelloNDK.so
+13:54:54 **** Incremental Build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" all 
+[armeabi] Install        : libHelloNDK.so => libs/armeabi/libHelloNDK.so
+13:56:42 **** Incremental Build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" all 
+[armeabi] Install        : libHelloNDK.so => libs/armeabi/libHelloNDK.so
+14:39:56 **** Build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" all 
+[armeabi] Compile++ thumb: HelloNDK <= HelloNDK.cpp
+[armeabi] StaticLibrary  : libstdc++.a
+[armeabi] SharedLibrary  : libHelloNDK.so
+[armeabi] Install        : libHelloNDK.so => libs/armeabi/libHelloNDK.so
+14:42:05 **** Incremental Build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" all 
+[armeabi] Install        : libHelloNDK.so => libs/armeabi/libHelloNDK.so
+14:53:18 **** Incremental Build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" all 
+[armeabi] Compile++ thumb: HelloNDK <= HelloNDK.cpp
+jni/HelloNDK.cpp:2:33: fatal error: zheng_com_GetString.h: No such file or directory
+ #include "zheng_com_GetString.h"
+                                 ^
+compilation terminated.
+make.exe: *** [obj/local/armeabi/objs/HelloNDK/HelloNDK.o] Error 1
+14:53:42 **** Incremental Build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" all 
+[armeabi] Compile++ thumb: HelloNDK <= HelloNDK.cpp
+jni/HelloNDK.cpp:2:33: fatal error: zheng_com_GetString.h: No such file or directory
+ #include "zheng_com_GetString.h"
+                                 ^
+compilation terminated.
+make.exe: *** [obj/local/armeabi/objs/HelloNDK/HelloNDK.o] Error 1
+14:54:23 **** Incremental Build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" all 
+[armeabi] Compile++ thumb: HelloNDK <= HelloNDK.cpp
+jni/HelloNDK.cpp:2:33: fatal error: zheng_com_GetString.h: No such file or directory
+ #include "zheng_com_GetString.h"
+                                 ^
+compilation terminated.
+make.exe: *** [obj/local/armeabi/objs/HelloNDK/HelloNDK.o] Error 1
+15:00:42 **** Incremental Build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" all 
+[armeabi] Compile++ thumb: HelloNDK <= HelloNDK.cpp
+jni/HelloNDK.cpp:2:33: fatal error: zheng_com_GetString.h: No such file or directory
+ #include "zheng_com_GetString.h"
+                                 ^
+compilation terminated.
+make.exe: *** [obj/local/armeabi/objs/HelloNDK/HelloNDK.o] Error 1
+15:02:02 **** Clean-only build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" clean 
+[armeabi] Clean          : HelloNDK [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+15:03:18 **** Build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" all 
+[armeabi] Compile++ thumb: HelloNDK <= HelloNDK.cpp
+[armeabi] StaticLibrary  : libstdc++.a
+[armeabi] SharedLibrary  : libHelloNDK.so
+[armeabi] Install        : libHelloNDK.so => libs/armeabi/libHelloNDK.so
+15:10:34 **** Incremental Build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" all 
+[armeabi] Compile++ thumb: HelloNDK <= HelloNDK.cpp
+[armeabi] SharedLibrary  : libHelloNDK.so
+[armeabi] Install        : libHelloNDK.so => libs/armeabi/libHelloNDK.so
+15:11:18 **** Incremental Build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" all 
+[armeabi] Compile++ thumb: HelloNDK <= HelloNDK.cpp
+[armeabi] SharedLibrary  : libHelloNDK.so
+[armeabi] Install        : libHelloNDK.so => libs/armeabi/libHelloNDK.so
+15:13:20 **** Incremental Build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" all 
+[armeabi] Install        : libHelloNDK.so => libs/armeabi/libHelloNDK.so

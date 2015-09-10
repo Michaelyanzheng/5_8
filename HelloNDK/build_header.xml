@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     2015年5月25日 下午2:45:10                                                        
+
+     project    
+     description
+                   
+     michael                                                                
+     ====================================================================== -->
+<project name="project" default="BuildAllHeaders">
+    <description>
+            description
+    </description>
+
+    <!-- ================================= 
+          target: BuildAllHeaders              
+         ================================= -->
+    <target name="BuildAllHeaders">
+        <antcall target="BuildGetStringHeader"></antcall>
+        <antcall target="BuildGetIntHeader"></antcall>
+    </target>
+
+    <!-- - - - - - - - - - - - - - - - - - 
+          target: depends                      
+         - - - - - - - - - - - - - - - - - -->
+    <target name="BuildGetStringHeader">
+    	<javah destdir="./jni" classpath="./bin/classes/" class="zheng.com.GetString"></javah>
+    </target>
+	
+	<target name="BuildGetIntHeader">
+    	<javah destdir="./jni" classpath="./bin/classes/" class="zheng.com.GetInt"></javah>
+	    </target>
+
+</project>

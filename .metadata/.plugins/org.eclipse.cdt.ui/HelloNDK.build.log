@@ -1,0 +1,6 @@
+15:13:20 **** Incremental Build of configuration Default for project HelloNDK ****
+"D:\\Android\\android-ndk-r10e\\ndk-build.cmd" all 
+[armeabi] Install        : libHelloNDK.so => libs/armeabi/libHelloNDK.so
+
+15:13:20 Build Finished (took 184ms)
+
